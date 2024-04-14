@@ -42,6 +42,7 @@ export const config = {
         },
         {
             title: "MyStory",
+            url: "https://mystory.lol",
             description: "MyStory | Partnership with Georgi & Adi | My Story App",
         },
         {
