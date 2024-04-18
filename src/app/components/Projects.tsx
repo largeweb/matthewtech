@@ -26,8 +26,26 @@ const Projects = () => {
               )}
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-gray-600">{project.description}</p>
-                {project.url && (
+                {Array.isArray(project.description) ? (
+                  project.description.map((desc, i) => (
+                    <p key={i} className="text-gray-600">
+                      {desc}
+                    </p>
+                  ))
+                ) : (
+                  <p className="text-gray-600">{project.description}</p>
+                )}
+                {Array.isArray(project.url) ? (
+                  project.url.map((url, i) => (
+                    <a
+                      key={i}
+                      href={url}
+                      className="block text-indigo-600 hover:text-indigo-800 mt-4"
+                    >
+                      View ({url})
+                    </a>
+                  ))
+                ) : (
                   <a
                     href={project.url}
                     className="block text-indigo-600 hover:text-indigo-800 mt-4"

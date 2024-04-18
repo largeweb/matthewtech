@@ -1,10 +1,11 @@
+// src/app/config.ts
 export const config = {
     projects: [
         {
             title: "Matt's KPIs",
-            url: "https://kpi.matthew.tech",
+            url: ["https://kpi.matthew.tech", "https://agents.matthew.tech", "https://deploy.matthew.tech", "https://news.matthew.tech"],
             logo: "/kpi-dash-hero.png",
-            description: "Matt's KPI Dashboard",
+            description: ["Matt's KPI Dashboard", "Matt's AI Agents | Special News Agent | MOE Agent Framework | Deploy Agent", "Matt's AI Deploy Agent - Deploy with AI Agents", "Matt's AI News Agent | AI News | News Aggregator | News API"],
         },
         {
             title: "Shortify",
@@ -39,27 +40,53 @@ export const config = {
             banner: "/accenture-logo.png",
             description: "I do SAP & GenAI | Accenture Job",
         },
+        // {
+        //     title: "*TBD* Treats Digital",
+        //     url: "https://treats.digital",
+        //     logo: "/treats-pay.png",
+        //     description: "Creator Video Marketplace | Treats Digital",
+        // },
+    ],
+    skills: [
         {
-            title: "*TBD* Treats Digital",
-            url: "https://treats.digital",
-            logo: "/treats-pay.png",
-            description: "Creator Video Marketplace | Treats Digital",
+            title: "Cloudflare",
+            logo: "/cloudflare-logo.png",
+            description: "Pages | Workers | R2 | KV | D1 | Edge Runtime",
         },
         {
-            title: "*TBD* Matt's AI Agents",
-            url: "https://agents.matthew.tech",
-            description: "Matt's AI Agents | Special News Agent | MOE Agent Framework | Deploy Agent",
+            title: "HuggingFace",
+            logo: "/huggingface-logo.png",
+            description: "Transformers | LLMs | Video | ML Development",
         },
         {
-            title: "*TBD* Matt's AI Deploy Agent",
-            url: "https://deploy.matthew.tech",
-            description: "Deploy with Matt's AI Agents",
+            title: "OpenAI",
+            logo: "/openai-logo.png",
+            description: "OpenAI GPT4 | DALLE-3 | Function Calling | TTS | Whisper",
         },
         {
-            title: "*TBD* Matt's AI News Agent",
-            url: "https://news.matthew.tech",
-            logo: "/news-agent-hero.png",
-            description: "AI News | News Aggregator | News API",
-        }
-    ]
+            // title: "Anthropic",
+            logo: "/anthropic-logo.png",
+            description: "Claude 3",
+        },
+        {
+            // title: "NextJS",
+            logo: "/nextjs-logo.png",
+            description: "Full Stack Platforms (Edge Enabled)",
+        },
+        {
+            // title: "Expo",
+            logo: "/expo-logo.png",
+            description: "React Native Mobile App Development",
+        },
+        {
+            // title: "Python",
+            logo: "/python-logo.png",
+            // description: "Python",
+        },
+        {
+            // title: "Typescript",
+            logo: "/typescript-logo.png",
+            // description: "Typescript",
+        },
+    ],
 }
