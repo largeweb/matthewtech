@@ -7,11 +7,11 @@ const Contact = () => {
         {/* add colorful matthewgordon64@gmail.com */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-bold mb-2">Email</h3>
+            <h3 className="text-xl font-bold mb-2 text-black">Email</h3>
             <p className="text-gray-600">
               <a
                 href="mailto:matthewgordon64@gmail.com"
-                className="text-indigo-600 hover:text-indigo-800"
+                className="text-indigo-600 hover:text-indigo-800 text-black"
               >
                 matthewgordon64@gmail.com
               </a>
