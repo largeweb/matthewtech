@@ -47,6 +47,14 @@ const Header = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link
+                href="https://kpi.matthew.tech"
+                className="text-gray-600 hover:text-gray-800"
+              >
+                KPI
+              </Link>
+            </li>
           </ul>
         </nav>
         <button className="md:hidden" onClick={toggleMenu}>
@@ -78,6 +86,14 @@ const Header = () => {
                 className="block text-gray-600 hover:text-gray-800 py-2"
               >
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://kpi.matthew.tech"
+                className="block text-gray-600 hover:text-gray-800 py-2"
+              >
+                KPI
               </Link>
             </li>
           </ul>
