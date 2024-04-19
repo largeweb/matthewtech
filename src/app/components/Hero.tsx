@@ -12,7 +12,7 @@ const Hero = () => {
               experiences.
             </p>
             <a
-              href="/projects"
+              href="#projects"
               className="bg-white text-indigo-600 px-6 py-3 rounded-md hover:bg-indigo-100"
             >
               View Projects
