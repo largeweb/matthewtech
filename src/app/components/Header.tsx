@@ -1,4 +1,5 @@
 "use client";
+// src/app/components/Header.tsx
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
@@ -23,13 +24,8 @@ const Header = () => {
         <nav className="hidden md:flex">
           <ul className="flex space-x-4">
             <li>
-              <Link href="/" className="text-gray-600 hover:text-gray-800">
-                Home
-              </Link>
-            </li>
-            <li>
               <Link
-                href="/projects"
+                href="#projects"
                 className="text-gray-600 hover:text-gray-800"
               >
                 Projects
@@ -37,7 +33,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/skills"
+                href="#skills"
                 className="text-gray-600 hover:text-gray-800"
               >
                 Skills
@@ -45,7 +41,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="#contact"
                 className="text-gray-600 hover:text-gray-800"
               >
                 Contact
@@ -62,15 +58,7 @@ const Header = () => {
           <ul className="px-4 py-2">
             <li>
               <Link
-                href="/"
-                className="block text-gray-600 hover:text-gray-800 py-2"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/projects"
+                href="#projects"
                 className="block text-gray-600 hover:text-gray-800 py-2"
               >
                 Projects
@@ -78,7 +66,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/skills"
+                href="#skills"
                 className="block text-gray-600 hover:text-gray-800 py-2"
               >
                 Skills
@@ -86,7 +74,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="#contact"
                 className="block text-gray-600 hover:text-gray-800 py-2"
               >
                 Contact
