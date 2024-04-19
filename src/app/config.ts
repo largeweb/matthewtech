@@ -2,6 +2,12 @@
 export const config = {
     projects: [
         {
+            title: "myCEO",
+            url: "https://myceo.lol",
+            logo: "/kpi-dash-hero.png",
+            description: ["Matt's KPI Dashboard", "Matt's AI Agents | Special News Agent | MOE Agent Framework | Deploy Agent", "Matt's AI Deploy Agent - Deploy with AI Agents", "Matt's AI News Agent | AI News | News Aggregator | News API"],
+        },
+        {
             title: "Matt's KPIs",
             url: ["https://kpi.matthew.tech", "https://agents.matthew.tech", "https://deploy.matthew.tech", "https://news.matthew.tech"],
             logo: "/kpi-dash-hero.png",
