@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "configpush": "git add . ; git commit -m config_changes ; git push origin main",
+    "maincycle": "git checkout preview ; git merge main ; git push origin preview",
+    "ppcycle": "git checkout prod ; git merge preview ; git push origin prod ; git checkout main",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
