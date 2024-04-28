@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "configpush": "git add . ; git commit -m config_changes ; git push origin main",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

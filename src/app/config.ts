@@ -64,7 +64,7 @@ export const config = {
         {
             title: "Cloudflare",
             logo: "/cloudflare-notext-logo.png",
-            description: "Pages | Workers | R2 | KV | D1 | Edge",
+            description: "Pages | Workers AI | R2 | KV | D1 | Edge",
         },
         {
             title: "HuggingFace",
@@ -72,25 +72,30 @@ export const config = {
             description: "Transformers | LLMs | Video | Music",
         },
         {
+            // title: "NextJS",
+            logo: "/nextjs-logo.png",
+            description: "Full Stack Platforms (Edge Enabled)",
+        },
+        {
+            title: "Swift iOS",
+            logo: "/swift-icon.png",
+            description: "Xcode Development",
+        },
+        {
             title: "OpenAI",
             logo: "/openai-logo-notext.svg",
-            description: "GPT4 | DALLE-3 | Function Calling | TTS | Whisper",
+            description: "GPT4 Function Calling | Whisper | DALLE-3",
         },
         {
             // title: "Anthropic",
             logo: "/anthropic-logo.png",
             description: "Claude 3",
         },
-        {
-            // title: "NextJS",
-            logo: "/nextjs-logo.png",
-            description: "Full Stack Platforms (Edge Enabled)",
-        },
-        {
-            // title: "Expo",
-            logo: "/expo-logo.png",
-            description: "React Native Mobile App Development",
-        },
+        // {
+        //     // title: "Expo",
+        //     logo: "/expo-logo.png",
+        //     description: "React Native Mobile App Development",
+        // },
         {
             // title: "Python",
             logo: "/python-logo.png",
