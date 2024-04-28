@@ -87,10 +87,15 @@ export const config = {
             description: "GPT4 Function Calling | Whisper | DALLE-3",
         },
         {
-            // title: "Anthropic",
-            logo: "/anthropic-logo.png",
-            description: "Claude 3",
+            title: "Modal Labs",
+            logo: "/modal-labs-nobg.png",
+            description: "GPU Serverless | Video Processing | AI",
         },
+        // {
+        //     // title: "Anthropic",
+        //     logo: "/anthropic-logo.png",
+        //     description: "Claude 3",
+        // },
         // {
         //     // title: "Expo",
         //     logo: "/expo-logo.png",
